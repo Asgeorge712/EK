@@ -13,8 +13,12 @@ public class RegistrationResultActivity extends Activity {
 			String registrationId = extras.getString("registration_id");
 			if (registrationId != null && registrationId.length() > 0) {
 				TextView view = (TextView) findViewById(R.id.result);
-				view.setText(registrationId);
+				view.setText("Yay! Your registration ID is " + registrationId);
 			}
+		}
+		else {
+			TextView view = (TextView) findViewById(R.id.result);
+			view.setText("Boo! Your registration ID was not returned.... ");
 		}
 
 		super.onCreate(savedInstanceState);

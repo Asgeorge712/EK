@@ -15,7 +15,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="showRegistrationId"
-        android:text="Show" >
+        android:text="Show Reg Id" >
+    </Button>
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendLocation"
+        android:text="Send Location" >
     </Button>
 
 </LinearLayout>

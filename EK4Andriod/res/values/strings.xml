@@ -2,6 +2,6 @@
 <resources>
 
     <string name="hello">Hello World, EyeKeeperAppActivity!</string>
-    <string name="app_name">EyeKeeperApp</string>
+    <string name="app_name">EyeKeeper</string>
 
 </resources>
